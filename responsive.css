@@ -1,0 +1,107 @@
+/* responsive starts here for mobie device max widht 400px */
+
+@media screen and (max-width: 426px) {
+  
+  .body{
+    max-width: 90%;
+    margin: 50px 10px;
+    padding: 10px;
+  }
+
+  header {
+    max-width: 100%;
+  }
+  .nav-bar{ 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 0px;
+  }
+
+  .nav-bar .logo-section{
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+
+   .nav-bar img{
+    width: 50%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-right: 100px;
+    ma
+   }
+
+  .nav-bar .menu-container {
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    align-items: center;
+    list-style-type: none;
+    margin-bottom: 0px;
+  } 
+
+  .nav-bar .menu-nokta {
+
+    justify-content: space-around;
+    align-items: center;
+  }
+  .nav-bar .menu-nokta img {
+    width: auto;
+  }
+
+  /* banner section starts here  */
+  .banner {
+    max-width: 100;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+  }
+  .banner-title, .goat {
+    color: #0B0223;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .banner .banner-img{
+    align-items: center;
+    width: 90%;
+  }
+  .goat {
+    font-size: 45px;
+  }
+
+  .banner p {
+    color: #534C64;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-bottom: 05px;
+    margin-left: 15px;
+  }
+  .btn-primary {
+    font-size: 14px;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 48px;
+    border: 0;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    margin: 10px;
+  }
+  .btn-secondary {
+    font-size: 14px;
+    padding: 8px 12px;
+    color: white;
+    border: 0;
+    border-radius: 48px;
+    background: #4EC5F7;
+  }
+ 
+
+}

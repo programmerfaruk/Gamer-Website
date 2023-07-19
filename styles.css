@@ -8,7 +8,6 @@
 
 body{
   max-width: 1440px;
-  min-height: 50px;
   font-family: 'Work Sans', sans-serif;
   margin: 0 auto;
 }
@@ -126,7 +125,6 @@ main{
 }
 /* banner section starts here  */
 .banner {
-  max-width: 1440px;
   margin: 50px auto;
   display: flex;
   gap: 50px;
@@ -146,19 +144,18 @@ main{
   align-items: end;
   width: 50%;
 }
+.banner-title, .goat {
+  color: #0B0223;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
 
 .banner .banner-img img{
   width: 100%;
   height: 100%
 }
 
-.banner-title, .goat {
-  color: #0B0223;
- 
-  font-size: 40px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
 
 .goat {
   font-family: Work Sans;
@@ -433,4 +430,6 @@ footer .icon-footer:hover{
   cursor: pointer;
 }
 /* footer section ends here here  */
+
+
 
