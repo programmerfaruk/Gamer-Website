@@ -136,6 +136,7 @@ main{
 .banner .banner-details {
   margin-top: 70px;
   width: 50%;
+  background-image: url(./images/Group\ 14.png);
 }
 
 
@@ -184,7 +185,7 @@ main{
 
 .gamer {
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
   margin-top: 20px;
 }
 .gamer .gamer-img {
@@ -236,6 +237,56 @@ main{
 
 }
 /* gamer sections ends here  */
+
+
+/* video section starts here  */
+
+.videos {
+  text-align: center;
+  padding: 10px;
+  margin: 50px 0;
+}
+.video-section-title{
+  margin-bottom: 5px;
+}
+.videos .videos-nokta-1 {
+  color: #0B0223;
+  text-align: right;
+  font-size: 48px;
+  font-weight: 700;
+}
+.videos .videos-nokta-2 {
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 48px;
+font-weight: 700;
+}
+.videos-section-details {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+/* cards section start here  */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 0 auto;
+  align-items: center;
+}
+.card-container img{
+  width: 100%;
+}
+.card-container .card-summarry {
+  color: #534C64;
+
+  font-size: 12px;
+  font-weight: 500;
+}
+/* video section ends here  */
+
 
 /* footer section starts here  */
 
