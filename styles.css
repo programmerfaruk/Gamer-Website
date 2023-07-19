@@ -132,7 +132,10 @@ main{
   gap: 50px;
   text-align: left;
 }
-
+.banner a, .gamer a { 
+  text-decoration: none;
+  color: white;
+}
 .banner .banner-details {
   margin-top: 70px;
   width: 50%;
@@ -178,6 +181,8 @@ main{
 .banner .buttons {
   margin-top: 20px;
 }
+
+
 /* banner section ends here  */
 
 /* gamer sections starts here  */
@@ -423,6 +428,9 @@ footer  .copyright-footer {
   /* border: 1px solid red; */
   font-size: .6rem;
   color: rgb(199, 209, 218);
+}
+footer .icon-footer:hover{
+  cursor: pointer;
 }
 /* footer section ends here here  */
 
