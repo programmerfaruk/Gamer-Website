@@ -100,13 +100,14 @@
     border: 0;
     border-radius: 48px;
     background: #4EC5F7;
+    margin-bottom: 10px;
   }
  
   /* gamer section starts here  */
   .gamer {
     flex-direction: column;
     width: 100%;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
   }
   .gamer .gamer-img {
     width: 100%;
