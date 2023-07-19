@@ -49,7 +49,7 @@ header {
 }
 
 .logo-section .site-title {
-  font-size: larger ;
+  font-size: 2.8rem ;
 }
 .letter-g {
   background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
@@ -60,6 +60,7 @@ header {
 
 
 /* nav bar menu section */
+
 
 
 
@@ -79,7 +80,9 @@ footer .logo-footer{
   justify-content: center;
   gap: 10px;
 }
-
+footer .logo-footer img{
+  width: 60px;
+}
 footer .footer-title{
   color: white;
 }
@@ -96,7 +99,7 @@ footer .menu-footer{
 }
 footer .menu-footer a{
   text-align: center;
-  font-size: 14px;
+  font-size: .8rem;
   color: white;
   text-decoration: none;
 }
@@ -116,4 +119,32 @@ footer .icon-footer img{
   width: 30px;
   height: 30px;
 }
+
+
+footer  .link-footer{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  /* border: 1px solid red; */
+  justify-content: center;
+  padding-bottom: 10px;
+}
+footer .link-footer a{
+  text-decoration: none;
+  font-size: .6rem;
+  color: rgb(199, 209, 218);
+}
+footer  .copyright-footer {
+  display: flex;
+  margin: 0 auto;
+  max-width: 50%;
+  justify-content: center;
+  align-content: center;
+  /* border: 1px solid red; */
+  font-size: .6rem;
+  color: rgb(199, 209, 218);
+}
 /* footer section ends here here  */
+
+
