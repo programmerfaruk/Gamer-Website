@@ -103,5 +103,88 @@
     background: #4EC5F7;
   }
  
+  /* gamer section starts here  */
+  .gamer {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .gamer .gamer-img {
+    width: 100%;
+  }
+  .gamer .gamer-info{
+    text-align: center;
+    padding-top: 50px;
+    width: 90%;
+  }
+  .gamer .gamer-title {
+    font-size: 30px;
+    font-weight: 800;
+  }
 
+  .gamer-details {
+    width: 90%;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  /* cards section starts here*/
+  .videos {
+    text-align: center;
+    width: 90%;
+    padding: 0;;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+ /* hero section starts here  */
+ .hero {
+  flex-direction: column;
+  text-align: center;
+  padding: 0px;
+  justify-content: center;
+  margin-bottom: 100px;
+  width: 100%;
+}
+.hero .hero-info{
+ font-size: 12px;
+  width: 100%;
+ text-align: center;
+ padding: 0;
+ margin-bottom: 10px;
+}
+.hero .hero-title {
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.hero .hero-details {
+  align-items: center;
+}
+
+/* footer section starts here  */
+
+footer  {
+  background-color: #0B0223;
+  padding: 40px 5px;
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+}
+footer .menu-footer{
+  flex-direction: column;
+  margin: 10px auto;
+  gap: 5px;
+}
 }
