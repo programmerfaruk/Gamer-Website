@@ -104,10 +104,12 @@ footer .menu-footer a{
 footer .icon-footer{
   display: flex;
   gap: 20px;
+  max-width: 70%;
   /* border: 1px solid red; */
   justify-content: center;
   align-items: center;
-  margin: 20px auto;
+  margin: 10px auto;
+  padding: 10px;
 }
 
 footer .icon-footer img{
