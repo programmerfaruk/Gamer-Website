@@ -66,5 +66,36 @@ header {
 
 /* footer section starts here  */
 
+/* footer styles */
+footer  {
+  background-color: #0B0223;
+  padding: 50px;
+}
 
+footer .logo-footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .footer-title{
+  color: white;
+}
+
+footer .menu-footer{
+  display: flex;
+  /* border: 1px solid purple; */
+  padding: 10px;
+  justify-content: center;
+  margin: 10px auto;
+  align-items: center;
+  gap: 60px;
+  list-style: none;
+}
+footer .menu-footer a{
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+}
 /* footer section ends here here  */
