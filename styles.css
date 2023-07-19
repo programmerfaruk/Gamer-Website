@@ -16,11 +16,16 @@ body{
 .letter-g {
   color: #FF42A5;
 }
-/* header styles  */
+
+
+
+/* header sections starts here  */
 
 header {
   max-width: 1440px;
   margin: 0 auto;
+  border: 1px solid red;
+  padding: 10px;
 }
 
 
@@ -32,6 +37,7 @@ header {
   max-width: 1440px;
   margin: 0 auto;
   justify-content: space-between;
+  border: 1px solid slateblue;
 }
 
 .nav-bar .logo-section{
@@ -93,9 +99,11 @@ header {
 .nav-bar .menu-nokta img {
   width: 25px;
 }
-/* footer section starts here  */
+/* header section ends here  */
 
-/* footer styles */
+
+
+/* footer section starts here  */
 
 footer  {
   background-color: #0B0223;
