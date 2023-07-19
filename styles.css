@@ -1,6 +1,9 @@
+/* global styles */
 *{
   box-sizing: border-box;
 }
+
+ /* body styles */
 
 body{
   max-width: 1400px;
