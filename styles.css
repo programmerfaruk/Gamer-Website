@@ -6,7 +6,65 @@
  /* body styles */
 
 body{
-  max-width: 1400px;
-  border: 2px solid red;
+  max-width: 1440px;
   min-height: 50px;
+  font-family: 'Work Sans', sans-serif;
+  margin: 0 auto;
 }
+
+/* common styles  */
+.letter-g {
+  color: #FF42A5;
+}
+/* header styles  */
+
+header {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+/* nav bar styles */
+
+.nav-bar{
+  display: flex;  
+  background-color: rgb(248, 248, 248);
+}
+
+.nav-bar .logo-section{
+  display: flex;
+  align-items: center;
+  width: 50%;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+/* nav bar logo section styles  */
+
+.nav-bar .logo-section img {
+  width: 60px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.logo-section .site-title {
+  font-size: larger ;
+}
+.letter-g {
+  background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+   background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* nav bar menu section */
+
+
+
+
+/* footer section starts here  */
+
+
+/* footer section ends here here  */
