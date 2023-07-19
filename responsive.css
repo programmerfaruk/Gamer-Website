@@ -1,6 +1,6 @@
 /* responsive starts here for mobie device max widht 400px */
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 576px) {
   
   .body{
     max-width: 90%;
@@ -10,6 +10,7 @@
 
   header {
     max-width: 100%;
+    margin-bottom: 0;
   }
   .nav-bar{ 
     flex-direction: column;
@@ -32,14 +33,11 @@
     align-content: center;
     justify-content: center;
     margin-right: 100px;
+    margin-bottom: 0;
    }
 
   .nav-bar .menu-container {
-    flex-direction: column;
-    justify-content: center;
-    width: 90%;
-    align-items: center;
-    list-style-type: none;
+    display: none;
     margin-bottom: 0px;
   } 
 
@@ -47,6 +45,7 @@
 
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 0px;
   }
   .nav-bar .menu-nokta img {
     width: auto;
@@ -82,7 +81,7 @@
     font-weight: 500;
     text-transform: lowercase;
     margin-bottom: 05px;
-    margin-left: 15px;
+    text-align: center;
   }
   .btn-primary {
     font-size: 14px;
@@ -120,12 +119,15 @@
   .gamer .gamer-title {
     font-size: 30px;
     font-weight: 800;
+    text-align: center;
   }
 
   .gamer-details {
-    width: 90%;
+    width: 70%;
     font-size: 14px;
     text-align: center;
+    align-items: center;
+    padding: 10px;
   }
 
   /* cards section starts here*/
