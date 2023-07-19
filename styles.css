@@ -20,14 +20,14 @@ body{
 .btn-primary {
   font-size: 18px;
   color: white;
-  padding: 15px 25px;
+  padding: 12px 22px;
   border-radius: 48px;
   border: 0;
   background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 }
 .btn-secondary {
   font-size: 18px;
-  padding: 15px 25px;
+  padding: 12px 22px;
   color: white;
   border: 0;
   border-radius: 48px;
@@ -210,7 +210,8 @@ main{
   margin-left: 20px;
 }
 .gamer-details {
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-left: 20%;
   font-size: 14px;
 }
@@ -249,6 +250,7 @@ footer .logo-footer{
   justify-content: center;
   gap: 10px;
 }
+
 footer .logo-footer img{
   width: 60px;
 }
@@ -288,7 +290,6 @@ footer .icon-footer img{
   width: 30px;
   height: 30px;
 }
-
 
 footer  .link-footer{
   display: flex;
