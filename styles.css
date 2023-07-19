@@ -295,6 +295,57 @@ font-weight: 700;
 
 /* video section ends here  */
 
+/* hero section starts here  */
+
+.hero {
+  display: flex;
+  text-align: right;
+  padding: 20px;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.hero .hero-info{
+  width: 50%;
+  padding: 100px;
+}
+
+
+.hero .hero-title {
+  text-align: right;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.hero .hero-details {
+  align-items: end;
+}
+
+.hero .hero-nokta {
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-img {
+  position: relative;
+}
+.hero-img img {
+  width: 70%;
+}
+.overlap-img {
+  position: absolute;
+  bottom: -30px;
+  left: -40px;
+  width: 50%;
+}
+
+
+/* hero section ends here  */
+
+
 
 /* footer section starts here  */
 
